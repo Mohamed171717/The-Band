@@ -182,7 +182,7 @@ header .line li:hover a {
 
 /* start heading */
 .heading {
-    background-image: url("../images/back1.jpg");
+    background-image: url("/images/back1.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
