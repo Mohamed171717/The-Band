@@ -5,7 +5,7 @@ let arrayImg = [ "back1.jpg", "back2.jpg", "back3.jpg", "back4.jpg", "back5.jpg"
 
 setInterval( () => {
   let randomNum = Math.floor( Math.random() * arrayImg.length );
-  headingImg.style.backgroundImage = `url(/images/${arrayImg[randomNum]})`
+  headingImg.style.backgroundImage = `url(images/${arrayImg[randomNum]})`
 }, 5000)
 
 
